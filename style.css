@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player{
+    width: 600px;
+    height: 500px;
+    background-color: beige;
+    border-radius: 12px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px;
+}
+
+.title{
+    font-size: 28px;
+    margin: 19px;
+    color: black;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cover{
+    width: 200px;
+    height: 300px;
+    background-color: blanchedalmond;
+}
